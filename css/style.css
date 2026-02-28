@@ -1,0 +1,60 @@
+.header-bg {
+    position: relative;
+    background-image: url('../images/3d-space-sky-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 20vh;
+}
+
+.header-bg::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+header > * {
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    background-color: mintcream;
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#my-profile-page {
+    background-color: #D1D5DB;
+    position: relative;
+}
+
+#my-profile-page > * {
+    position: relative;
+    z-index: 1;
+    color: black;
+}
+
+#home-page {
+    background-color: #D1D5DB;
+}
+
+#portfolio-page {
+    background-color: #D1D5DB;
+}
+
+#contact-me-page {
+    background-color: #D1D5DB;
+}
+
+/* footer dark grey */
+footer p {
+    background-color: #333333;
+    color: white;
+}
