@@ -24,7 +24,7 @@ header > * {
     height: 75px;
     width: 75px;
     border-radius: 50%;
-    background-image: url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop');
+    background-image: url('../images/alieyaa.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
@@ -57,4 +57,5 @@ header > * {
 footer p {
     background-color: #333333;
     color: white;
+
 }
